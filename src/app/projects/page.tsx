@@ -2,9 +2,24 @@ import AnimatedSection from '@/components/animatedsection'
 import ProjectCard from '@/components/projectcard'
 
 const projects = [
-  { title: 'Property Maintenance', description: 'Property Maintenance coordination is a structural handoff problem between three parties,and a guided workflow', tags: ['AI/ML', 'B2C'] },
-  { title: 'Prescription Refill Management', description: 'Prescription refill drop-off reframed|An AI product management case study: 0-1 discovery through working prototype', tags: ['Healthcare'] },
-  { title: 'Billing and Authorization', description: 'WIP - TBD', tags: ['Finance'] },
+  {
+    title: 'Property Maintenance',
+    description: 'Property Maintenance request coordination with guided workflow',
+    tags: ['AI/ML', 'B2C'],
+    productUrl: 'https://maintenance-friction-app.vercel.app/',
+    githubUrl: 'https://github.com/buddy2706/Maintenance_Request_Manager',
+  },
+  {
+    title: 'Prescription Refill Management',
+    description: 'Prescription refill drop-off reframed | An AI product management case study: 0-1 discovery through working prototype',
+    tags: ['Healthcare'],
+    githubUrl: 'https://github.com/buddy2706/PrescriptionRefillMgmt',
+  },
+  {
+    title: 'Billing and Authorization',
+    description: 'WIP - TBD',
+    tags: ['Finance'],
+  },
 ]
 
 export default function Projects() {
