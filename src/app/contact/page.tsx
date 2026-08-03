@@ -1,5 +1,6 @@
 import AnimatedSection from '@/components/animatedsection'
-import { Mail, Linkedin } from 'lucide-react'
+import {  FaLinkedin } from 'react-icons/fa'
+import { Mail } from 'lucide-react'
 
 export default function Contact() {
   return (
