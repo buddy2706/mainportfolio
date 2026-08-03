@@ -1,5 +1,5 @@
-import AnimatedSection from '@/components/animatedSection'
-import ProjectCard from '@/components/projectCard'
+import AnimatedSection from '@/components/animatedsection'
+import ProjectCard from '@/components/projectcard'
 
 const projects = [
   { title: '[PLACEHOLDER Project 1]', description: '[one-line summary]', tags: ['B2C'] },
