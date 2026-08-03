@@ -20,7 +20,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/monicaahuja"
           target="_blank"
           className="mt-10 inline-flex items-center gap-2 bg-[var(--sage-800)] text-white px-8 py-4 rounded-md font-medium tracking-wide hover:bg-[var(--sage-600)] transition-colors"
-        ></a>  
+        >
         <FaLinkedin size={18} /> FOLLOW ME ON LINKEDIN
         </a>
       </div>
