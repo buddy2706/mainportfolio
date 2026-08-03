@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --sage-50: #eef2ea;
   --sage-100: #dde6d5;
