@@ -1,5 +1,5 @@
 import AnimatedSection from '@/components/animatedsection'
-import {  FaLinkedin } from 'react-icons/fa'
+import {FaLinkedin } from 'react-icons/fa'
 import { Mail } from 'lucide-react'
 
 export default function Contact() {
@@ -11,7 +11,7 @@ export default function Contact() {
           <Mail size={18} /> monica.s.ahuja@gmail.com
         </a>
         <a href="https://www.linkedin.com/in/monicaahuja" className="flex items-center gap-2 text-gray-600">
-          <Linkedin size={18} /> LinkedIn
+          <FaLinkedin size={18} /> LinkedIn
         </a>
       </div>
     </AnimatedSection>
