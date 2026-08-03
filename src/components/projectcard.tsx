@@ -30,7 +30,7 @@ export default function ProjectCard({ title, description, tags, productUrl, gith
         <div className="mt-5 pt-4 border-t border-[var(--sage-100)] flex gap-5">
           {productUrl && (
             
-              href={productUrl}
+            <a href={productUrl}
               target="_blank"
               className="flex items-center gap-1.5 text-sm text-[var(--sage-800)] hover:text-[var(--sage-600)]"
             >
@@ -39,11 +39,11 @@ export default function ProjectCard({ title, description, tags, productUrl, gith
           )}
           {githubUrl && (
             
-              href={githubUrl}
+             <a href={githubUrl}
               target="_blank"
               className="flex items-center gap-1.5 text-sm text-[var(--sage-800)] hover:text-[var(--sage-600)]"
             >
-              <FaGithub size={15} /> GitHub
+              <FaGithub size={15} /> GitHub Repo
             </a>
           )}
         </div>
