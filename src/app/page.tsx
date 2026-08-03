@@ -1,4 +1,4 @@
-import AnimatedSection from '@/components/animatedSection'
+import AnimatedSection from '@/components/animatedsection'
 
 export default function Home() {
   return (
