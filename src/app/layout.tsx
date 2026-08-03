@@ -8,7 +8,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <body className="min-h-screen flex flex-col font-sans">
-        <nav />
+        <Nav />
         <div className="flex-1">{children}</div>
         <footer />
       </body>
