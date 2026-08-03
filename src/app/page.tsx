@@ -11,9 +11,11 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 max-w-3xl mx-auto text-center px-6 py-32">
-        <h1 className="font-[var(--font-serif)] text-5xl sm:text-6xl leading-tight text-[var(--ink)]">
-          Senior Technical AI PM building AI/ML products across B2C, healthcare and finance.
-        </h1>
+        <h1 style={{ fontFamily: 'var(--font-serif)' }}
+          className="text-5xl sm:text-6xl leading-tight text-[var(--ink)]"
+        >
+              Senior Technical AI PM building AI/ML products across B2C, healthcare and finance.
+            </h1>
         <p className="mt-8 text-lg text-[var(--muted)] max-w-xl mx-auto">
           Experienced bridging business strategy and technical execution: leading AI-native product initiatives.
         </p>

@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col font-sans">
         <Nav />
         <div className="flex-1">{children}</div>
-        <footer />
+        <Footer />
       </body>
     </html>
   )
