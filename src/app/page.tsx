@@ -16,15 +16,15 @@ export default function Home() {
         </h1>
         <p className="mt-8 text-lg text-[var(--muted)] max-w-xl mx-auto">
           Experienced bridging business strategy and technical execution: leading AI-native product initiatives.
-        </p>
-        
-          href="https://www.linkedin.com/in/monicaahuja"
+        </p>        
+         <a href="https://www.linkedin.com/in/monicaahuja"
           target="_blank"
           className="mt-10 inline-flex items-center gap-2 bg-[var(--sage-800)] text-white px-8 py-4 rounded-md font-medium tracking-wide hover:bg-[var(--sage-600)] transition-colors"
-        
-          <FaLinkedin size={18} /> FOLLOW ME ON LINKEDIN
+         >
+         <FaLinkedin size={18} /> FOLLOW ME ON LINKEDIN
         </a>
       </div>
     </section>
   )
 }
+
