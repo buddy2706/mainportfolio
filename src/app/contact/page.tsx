@@ -12,21 +12,20 @@ export default function Contact() {
         Contact
       </h1>
       <div className="flex flex-col gap-4">
-        
-          href="mailto:monica.s.ahuja@gmail.com"
+        <a href="mailto:monica.s.ahuja@gmail.com"
           className="flex items-center gap-3 text-[var(--muted)] hover:text-[var(--sage-800)]"
         >
           <Mail size={18} /> monica.s.ahuja@gmail.com
         </a>
         
-          href="https://www.linkedin.com/in/monicaahuja"
+           <a href="https://www.linkedin.com/in/monicaahuja"
           target="_blank"
           className="flex items-center gap-3 text-[var(--muted)] hover:text-[var(--sage-800)]"
         >
           <FaLinkedin size={18} /> LinkedIn
         </a>
         
-          href="https://github.com/buddy2706/mainportfolio"
+           <a href="https://github.com/buddy2706/mainportfolio"
           target="_blank"
           className="flex items-center gap-3 text-[var(--muted)] hover:text-[var(--sage-800)]"
         >
