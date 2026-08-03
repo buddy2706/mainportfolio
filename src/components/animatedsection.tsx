@@ -9,7 +9,7 @@ export default function AnimatedSection({ children }: { children: ReactNode }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.5 }}
-      className="px-6 py-16 max-w-4xl mx-auto"
+      className="relative px-6 py-24 max-w-4xl mx-auto"
     >
       {children}
     </motion.section>

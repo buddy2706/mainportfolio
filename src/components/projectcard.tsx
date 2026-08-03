@@ -9,15 +9,26 @@ type Project = {
 
 export default function ProjectCard({ title, description, tags, link }: Project) {
   return (
-    <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
+    <div className="border border-[var(--sage-100)] rounded-lg p-6 bg-white hover:shadow-md transition-shadow">
       <div className="flex items-start justify-between">
-        <h3 className="font-semibold text-lg">{title}</h3>
-        {link && <a href={link} target="_blank"><ArrowUpRight size={18} /></a>}
+        <h3 style={{ fontFamily: 'var(--font-serif)' }} className="text-xl text-[var(--ink)]">
+          {title}
+        </h3>
+        {link && (
+          <a href={link} target="_blank" className="text-[var(--sage-600)]">
+            <ArrowUpRight size={18} />
+          </a>
+        )}
       </div>
-      <p className="mt-2 text-gray-600 text-sm">{description}</p>
+      <p className="mt-2 text-[var(--muted)] text-sm">{description}</p>
       <div className="mt-4 flex gap-2 flex-wrap">
         {tags.map((t) => (
-          <span key={t} className="text-xs bg-gray-100 rounded-full px-3 py-1">{t}</span>
+          <span
+            key={t}
+            className="text-xs bg-[var(--sage-50)] text-[var(--sage-800)] rounded-full px-3 py-1"
+          >
+            {t}
+          </span>
         ))}
       </div>
     </div>
