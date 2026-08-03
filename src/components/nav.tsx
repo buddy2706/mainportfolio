@@ -11,7 +11,7 @@ const links = [
 export default function Nav() {
   return (
     <nav className="flex items-center justify-between px-6 py-4 border-b">
-      <Link href="/" className="font-semibold">Monica A</Link>
+      <Link href="/" className="font-semibold">Monica Ahuja</Link>
       <div className="flex gap-6">
         {links.map((l) => (
           <Link key={l.href} href={l.href} className="text-sm text-gray-600 hover:text-black">
