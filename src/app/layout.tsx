@@ -1,17 +1,13 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import { Playfair_Display, Inter } from 'next/font/google'
 import Nav from '@/components/nav'
-import Footer from '@/components/footer'
 
-export const metadata: Metadata = {
-  title: 'Monica Ahuja— Senior Technical AI PM',
-  description: 'Portfolio of AI/ML product work across B2C, healthcare, and finance.',
-}
+const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-serif' })
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen flex flex-col">
+    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+      <body className="min-h-screen flex flex-col font-sans">
         <Nav />
         <div className="flex-1">{children}</div>
         <Footer />
